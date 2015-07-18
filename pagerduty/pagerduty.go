@@ -8,7 +8,7 @@ import (
 	"net/url"
 )
 
-const BaseEndpoint = "https://events.pagerduty.com/generic/2010-04-15"
+var BaseEndpoint = "https://events.pagerduty.com/generic/2010-04-15"
 
 type TriggerJSON struct {
 	ServiceKey  string                 `json:"service_key"`
