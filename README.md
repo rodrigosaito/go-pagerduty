@@ -9,6 +9,12 @@ $ go get github.com/rodrigosaito/go-pagerduty
 
 ## Getting Started
 
+### Import package
+
+```go
+import "github.com/rodrigosaito/go-pagerduty/pagerduty"
+```
+
 ### Triggering an incident
 
 ```go
